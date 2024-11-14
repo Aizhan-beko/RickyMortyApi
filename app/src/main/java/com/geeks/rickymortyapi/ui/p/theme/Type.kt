@@ -1,4 +1,4 @@
-package com.geeks.rickymortyapi.ui.theme
+package com.geeks.rickymortyapi.ui.p.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

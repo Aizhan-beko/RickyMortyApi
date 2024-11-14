@@ -1,4 +1,4 @@
-package com.geeks.rickymortyapi.ui.theme
+package com.geeks.rickymortyapi.ui.p.theme
 
 import androidx.compose.ui.graphics.Color
 
