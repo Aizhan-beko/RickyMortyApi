@@ -1,4 +1,4 @@
-package com.geeks.rickymortyapi.ui.p.screen
+package com.geeks.rickymortyapi.ui.p.screen.main
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -32,7 +32,7 @@ fun MainScreen() {
                         contentAlignment = Alignment.Center
                     ) {
                         Text(
-                            text = "Ricky and Morty App",
+                            text = "Rick and Morty App",
                             fontWeight = FontWeight.Bold
                         )
                     }

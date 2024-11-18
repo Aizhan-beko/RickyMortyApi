@@ -75,5 +75,40 @@ dependencies {
     implementation (libs.androidx.material)
     implementation (libs.androidx.compose.ui.ui)
 
+    // json
+    implementation(libs.gson)
+
+    //retrofit2
+    implementation(libs.retrofit)
+    implementation (libs.converter.gson)
+    implementation (libs.okhttp)
+    implementation (libs.logging.interceptor.v4100)
+
+
+    //koin
+    implementation(libs.koin.android)
+    implementation(libs.koin.androidx.compose)
+
+    // Hilt зависимость
+    implementation (libs.hilt.android) // или последняя версия
+
+    // Hilt с ViewModel
+    implementation (libs.androidx.hilt.lifecycle.viewmodel)
+
+    // coroutines
+    implementation (libs.androidx.lifecycle.viewmodel.ktx)
+    implementation (libs.androidx.lifecycle.runtime.ktx.v260)
+
+     //Coil
+    implementation (libs.coil.compose)
+
+    implementation (libs.androidx.hilt.lifecycle.viewmodel.v100alpha03)
+    implementation (libs.androidx.hilt.work)
+    implementation (libs.androidx.lifecycle.viewmodel.ktx.v260)
+
+
+    implementation (libs.kotlin.stdlib)
+    implementation (libs.androidx.core.ktx.v1100)
+
 
 }
